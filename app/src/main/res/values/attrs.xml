@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <declare-styleable name="FeatureCoverFlow">
+        <attr name="coverWidth" format="dimension" />
+        <attr name="coverHeight" format="dimension" />
+        <attr name="spacing" format="float" />
+        <attr name="rotationThreshold" format="float" />
+		<attr name="scalingThreshold" format="float" />
+		<attr name="adjustPositionThreshold" format="float" />
+		<attr name="adjustPositionMultiplier" format="float" />
+		<attr name="maxRotationAngle" format="float" />
+		<attr name="maxScaleFactor" format="float" />
+		<attr name="circlePathRadius" format="float" />
+		<attr name="circlePathRadiusInMatrixSpace" format="float" />
+		<attr name="reflectionHeight" format="float" />
+		<attr name="reflectionGap" format="dimension" />
+		<attr name="reflectionOpacity" format="integer" />
+		<attr name="tunningWidgetSize" format="dimension" />	
+		<attr name="alignAnimationTime" format="integer" />	
+		<attr name="verticalPaddingTop" format="dimension" />	
+		<attr name="verticalPaddingBottom" format="dimension" />	
+		<attr name="reflectionBackroundColor" format="color" />	
+    </declare-styleable>
+    
+	<declare-styleable name="EndlessLoopAdapterContainer">
+        <attr name="shouldRepeat" format="boolean" />
+    </declare-styleable>
+    
+	<declare-styleable name="BasicContentBand">
+        <attr name="gridMode">
+             <flag name="fixed" value="0"/>
+             <flag name="dynamic" value="1"/>
+        </attr>
+        
+        <attr name="deviceSpecificPixelSize" format="integer" />
+    </declare-styleable>
+    
+    <declare-styleable name="TogglePrefAttrs">
+        <attr name="android:preferenceLayoutChild" />
+    </declare-styleable>
+    
+    <declare-styleable name="RangeSeekBar">
+        <attr name="absoluteMinValue" format="integer|float"/>
+        <attr name="absoluteMaxValue" format="integer|float"/>
+        <attr name="singleThumb" format="boolean"/>
+    </declare-styleable>
+    
+    <!-- These are the attributes that we want to retrieve from the theme
+         in view/Gallery1.java -->
+    <declare-styleable name="Gallery1">
+        <attr name="android:galleryItemBackground" />
+    </declare-styleable>
+    
+     <declare-styleable name="LabelView">
+        <attr name="text" format="string" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+    </declare-styleable>
+    
+    <declare-styleable name="image_labeled_button">
+        <attr name="icon_resource" format="reference" />
+        <attr name="icon_label" format="reference" />
+    </declare-styleable>
+    
+    <declare-styleable name="toggle_image_labeled_button">
+        <attr name="icon_resource_off" format="reference" />
+    </declare-styleable>
+    
+    <declare-styleable name="accordion">
+        <attr name="header_layout_id" format="reference" />
+        <attr name="header_layout_fold_button_id" format="reference" />
+        <attr name="header_layout_label_id" format="reference" />
+        <attr name="custom_font" format="string" />
+        <attr name="section_container" format="reference" />
+        <attr name="section_container_parent" format="reference" />
+        <attr name="section_bottom" format="reference" />
+    </declare-styleable>
+
+    <attr name="direction">
+        <enum name="rightToLeft" value="0" />
+        <enum name="bottomToTop" value="1" />
+        <enum name="leftToRight" value="2" />
+        <enum name="topToBottom" value="3" />
+    </attr>
+    
+    <declare-styleable name="MultiDirectionSlidingDrawer">
+        <attr name="handle" format="reference" />
+        <attr name="content" format="reference" />
+        <attr name="direction" />
+        <attr name="bottomOffset" format="dimension"  />
+        <attr name="topOffset" format="dimension"  />
+        <attr name="allowSingleTap" format="boolean" />
+        <attr name="animateOnClick" format="boolean" />
+    </declare-styleable>
+    
+    <declare-styleable 
+        name="ViewfinderView">
+  	</declare-styleable>
+  	
+</resources>

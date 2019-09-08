@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="shacs.dmotion.com.shacs.IRDeviceManagementActivity"
+    android:background="#303030"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/topLayout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#000000"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:textColor="#ffffff"
+            android:text="IR Device Management"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@mipmap/circle_icon"/>
+
+        <EditText
+            android:id="@+id/device01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:textSize="15sp"
+            android:hint="기기명을 입력하세요"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:text=""/>
+
+        <Button
+            android:id="@+id/btn1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_bg"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:text="켜"/>
+
+        <Button
+            android:id="@+id/btn1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_bg"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:text="꺼"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@mipmap/circle_icon"/>
+
+        <EditText
+            android:id="@+id/device02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:textSize="15sp"
+            android:hint="기기명을 입력하세요"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:text=""/>
+
+        <Button
+            android:id="@+id/btn2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_bg"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:text="켜"/>
+
+        <Button
+            android:id="@+id/btn2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_bg"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:text="꺼"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@mipmap/circle_icon"/>
+
+        <EditText
+            android:id="@+id/device03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:textSize="15sp"
+            android:hint="기기명을 입력하세요"
+            android:text=""/>
+
+        <Button
+            android:id="@+id/btn3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_bg"
+            android:textColor="#706f6f"
+            android:textSize="14sp"
+            android:text="켜"/>
+
+        <Button
+            android:id="@+id/btn3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_bg"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:text="꺼"/>
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="60dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/scanBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_bg"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:text="Scan"/>
+
+            <Button
+                android:id="@+id/saveBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/btn_bg"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:text="Save"/>
+
+            <Button
+                android:id="@+id/delBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/btn_bg"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:text="Delete"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
